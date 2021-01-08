@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>代码生成器配置文件</comment>
+	<!-- 要生产代码的表明，多个表用逗号分隔 -->
+	<entry key="generatorTables">order_detail,order_master,product_category,product_info,seller_info</entry>
+	<!-- 模板路径(idea) template分布式模板 template2单体应用-->
+	<entry key="templateRootDir">E:\code\test_fen\generate-code\template</entry>
+	<!-- 模板文件输出目录 -->
+	<entry key="outRoot">C:\Users\Administrator\Desktop\fileTest</entry>
+	<!-- 基础包路径 -->
+    <entry key="basepackage">com.yin</entry>
+    <!-- 项目名称 -->
+    <entry key="projectName">generateCode</entry>
+    <!-- 模块名称 -->
+    <entry key="moduleName">provider</entry>
+	<!-- DO父类，如果为空只实现序列化类Serializable -->
+	<!-- 只有ID父类 com.bvc.frame.base.domain.IdEntity -->
+	<!-- 带创建人，时间的父类 com.bvc.frame.base.domain.BaseEntity -->
+	<entry key="superEntityClass"> </entry>
+	<!-- 通用字段声明，根据父类通用字段设置，以com.bvc.frame.base.domain.BaseEntity为例 -->
+	<entry key="generalColumn">id,creator,createTime,modifier,modifyTime</entry>
+	<!-- 作者名称 -->
+	<entry key="author">yin</entry>
+
+	<!-- 数据库链接信息 -->
+	<entry key="jdbc_driver">com.mysql.cj.jdbc.Driver</entry>
+
+	<entry key="jdbc_url">jdbc:mysql://localhost:3306/sell?serverTimezone=Asia/Shanghai</entry>
+	<entry key="jdbc_username">root</entry>
+	<entry key="jdbc_password">123456</entry>
+
+	<!-- 需要移除的表名前缀,使用逗号进行分隔多个前缀,示例值: T_, V_, SYS_ -->
+	<entry key="tableRemovePrefixes">t_</entry>
+
+	<!-- 数据库类型至java类型映射  -->
+	<entry key="java_typemapping.java.sql.Timestamp">Date</entry>
+	<entry key="java_typemapping.java.sql.Date">Date</entry>
+	<entry key="java_typemapping.java.sql.Time">Date</entry>
+	<entry key="java_typemapping.java.sql.Clob">String</entry>
+	<entry key="java_typemapping.java.math.BigDecimal">Double</entry>
+	<entry key="java_typemapping.java.lang.Boolean">Integer</entry>
+	<entry key="java_typemapping.java.lang.Byte">Integer</entry>
+	<entry key="java_typemapping.java.lang.Short">Integer</entry>
+	<entry key="java_typemapping.java.lang.Integer">Integer</entry>
+	<entry key="java_typemapping.java.lang.Long">Long</entry>
+	<entry key="java_typemapping.java.lang.Float">Float</entry>
+	<entry key="java_typemapping.java.lang.Double">Double</entry>
+	<entry key="java_typemapping.java.lang.String">String</entry>
+</properties>
