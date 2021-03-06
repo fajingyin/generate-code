@@ -26,7 +26,7 @@ public class GeneratorMain {
         }else {
             gf.generateByAllTable();
         }
-        //获取xml中配置输出文件位置
+        //打开配置输出文件位置
         Runtime.getRuntime().exec("cmd.exe /c start " + GeneratorProperties.getRequiredProperty("outRoot"));
     }
 }

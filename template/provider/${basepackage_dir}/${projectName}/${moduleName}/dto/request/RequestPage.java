@@ -8,7 +8,7 @@ import ${basepackage}.${projectName}.${moduleName}.dao.entity.${className};
 
 @Data
 @ApiModel(description = "分页请求参数")
-public class RequestData<T>  {
+public class RequestPage<T>  {
 
     @ApiModelProperty(value = "当前页")
     private Integer pageNo=1;
