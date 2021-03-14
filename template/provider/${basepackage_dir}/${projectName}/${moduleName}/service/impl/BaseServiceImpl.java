@@ -1,9 +1,6 @@
 <#include "/javadoc_source.include">
 package ${basepackage}.${projectName}.${moduleName}.service.impl;
 
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import ${basepackage}.${projectName}.${moduleName}.dto.request.RequestPage;
 import ${basepackage}.${projectName}.${moduleName}.dao.entity.${className};
 import ${basepackage}.${projectName}.${moduleName}.dao.mapper.${className}Mapper;
 import ${basepackage}.${projectName}.${moduleName}.service.${className}Service;

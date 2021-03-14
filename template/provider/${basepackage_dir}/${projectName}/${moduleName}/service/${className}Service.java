@@ -2,7 +2,7 @@
 package ${basepackage}.${projectName}.${moduleName}.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import {basepackage}.${projectName}.${moduleName}.dto.request.RequestPage;
+import ${basepackage}.${projectName}.${moduleName}.dto.request.RequestPage;
 import ${basepackage}.${projectName}.${moduleName}.service.BaseService;
 import ${basepackage}.${projectName}.${moduleName}.dao.entity.${className};
 
